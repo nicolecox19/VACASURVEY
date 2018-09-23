@@ -17,7 +17,7 @@ $(document).ready(function() {
      $(".resultA").show();
    } else if ((result <100) && (result >50)) {
      $(".resultB").show();
-   }  else if ((result <140) && (result >=100)){
+   }  else if ((result <150) && (result >=100)){
        $(".resultC").show();
      }  else { $(".resultD").show(); }
 
