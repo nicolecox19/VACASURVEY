@@ -1,6 +1,15 @@
 #story {
   display: none;
 }
-#answers {
-  display:  none;
-}
+
+  .resultA{
+   display: none;
+  }
+  .resultB{
+   display: none;
+  }
+  .resultC{
+   display: none;
+  }
+  .resultD{
+   display: none;
