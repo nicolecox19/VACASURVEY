@@ -1,17 +1,22 @@
-$(document).ready(function(event) {
-  $("#form-control form").submit(function(event) {
-var who = parseInt($("#who").val());
-var weather = parseInt($("#weather").val());
-var activity = parseInt($("#activity").val());
-var agriculture = parseInt($("#beverage").val());
-var concerns  = parseInt($("#concerns").val());
-event.preventDefault;
+$(document).ready(function() {
+ $("form").submit(function(event) {
+   event.preventDefault();
 
-if (val >= 5){
-  $('#low').show();
-} else if (val <=10) {
-  $("#medium").show();
-} else (val <= 15) {
-  $("#high").show();
-}
+   var question1 = parseInt($("#question1").val());
+   var question2 = parseInt($("#question2").val());
+   var question3 = parseInt($("#question3").val());
+   var question4 = parseInt($("#question4").val());
+   var question5 = parseInt($("#question5").val());
+   var result = add(question1, question2, question3, question4, question5);
+
+   if (result <50) {
+     $(".resultA").show();
+   } else if ((result <100) && (result >50)) {
+     $(".resultB").show();
+   }  else if ((result <140) && (result >=100)){
+       $(".resultC").show();
+     }  else { $(".resultD").show(); }
+
+
+ });
 });
