@@ -19,6 +19,18 @@
   padding-bottom: 10pxl;
   padding-left: 20pxl;
   padding-right: 20pxl;
-  background-color: black;
-  background-color: red;
+}
+
+#question1, #question2, #question3, #question4, #question5{
+  font-family: bold;
+}
+
+.label{
+  font-weight: bold;
+  font-style: oblique;
+}
+.jumbotron{
+  font-style: italic;
+  font-weight: bold;
+  background-color: #9723;
 }
