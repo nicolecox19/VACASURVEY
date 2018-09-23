@@ -13,3 +13,15 @@
   }
   .resultD{
    display: none;
+ }
+#header {
+  font-family: sans-serif;
+  font-size: 20pxl;
+  float: right;
+  padding-top: 10pxl;
+  padding-bottom: 10pxl;
+  padding-left: 20pxl;
+  padding-right: 20pxl;
+  background-color: black;
+  background-color: red;
+}
